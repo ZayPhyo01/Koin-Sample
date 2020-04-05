@@ -8,5 +8,5 @@ import org.koin.dsl.module
 
     val appModule = module {
         single<Model> { Model }
-        factory<Presenter> { Presenter(get()) }
+        factory <Presenter> { Presenter() }
 }
